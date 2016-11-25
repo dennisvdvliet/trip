@@ -1,0 +1,47 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Material Docs"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+
+[params]
+    # General information
+    author = "Digitalcraftsman"
+    #description = "A material design theme for documentations."
+    #copyright = "Released under the MIT license"
+
+    version = ""
+    logo = "images/logo.png"
+    favicon = ""
+
+    permalink = "#"
+
+    # Custom assets
+    custom_css = []
+    custom_js  = []
+
+    # Syntax highlighting theme
+    highlight_css  = ""
+
+    [params.palette]
+        primary = "red"
+        accent  = "teal"
+
+    [params.font]
+        text = "Ubuntu"
+        code = "Ubuntu Mono"
+
+
+[social]
+
+[[menu.main]]
+    name   = "Landen"
+    url    = "getting-started/"
+    weight = 10
+
+[blackfriday]
+    smartypants = true
+    fractions = true
+    smartDashes = true
+    plainIDAnchors = true
